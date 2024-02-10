@@ -16,7 +16,7 @@ async def apply_add_password(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await context.bot.send_message(chat_id=update.effective_chat.id,
                                    text="CMD ADD PASSWORD")
 
-async def apply_remove_password(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def apply_change_password(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id,
                                    text="CMD REMOVE PASSWORD")
 
